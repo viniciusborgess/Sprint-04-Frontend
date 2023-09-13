@@ -5,11 +5,22 @@
 }
 
 
-:root {
-    /* --color-blue: #000000; */
-    --font-body: 'Poppins', sans-serif; 
+.nav-link {
+        color: black;
+        font-size: 18px;
 }
 
+.efeito {
+    transform: scale(100%);
+    transition: 0.5s;
+}
+
+
+.efeito:hover {
+    background-color: black;
+    transition: 0.5s;
+    transform: scale(110%);
+}
 
 body {
     font-family: 'Poppins', sans-serif;
