@@ -1,10 +1,37 @@
-:root {
-    /* --color-blue: #000000; */
-    --font-body: 'Heebo', sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+
+:root {
+    /* --color-blue: #000000; */
+    --font-body: 'Poppins', sans-serif; 
+}
+
+
 body {
-    font-family: var(--font-body) 
+    font-family: 'Poppins', sans-serif;
+}
+
+.color-smartlight {
+    background-color: #2D38FF;
+    border-radius: 18px;
+}
+
+.cards {
+    width: 349px;
+    height: 237px;
+    border-radius: 50px;
+    background: #FDCD60;
+    box-shadow:  6px 6px 12px #e4b956,-6px -6px 12px #ffe26a;
+    transition: 0.5s;
+}
+
+.texto-azul-aplicativo {
+    color: #0B75C7;
+    font-size: 18px;
 }
 
 .icon-position {
