@@ -20,6 +20,14 @@ body {
     border-radius: 18px;
 }
 
+.button-saibamais {
+    background-color: #2D38FF;
+    border-radius: 25px;
+    width: 180px;
+    font-size: 20px;
+    height: 50px;
+}
+
 .cards {
     width: 349px;
     height: 237px;
