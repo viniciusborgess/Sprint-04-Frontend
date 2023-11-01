@@ -47,6 +47,36 @@ body {
     top: 1px;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+  }
+  
+  .grid-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+  }
+  
+  .grid-item {
+    text-align: center;
+
+    .grid-item img {
+        max-width: 100%;
+        height: auto;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .grid-row {
+      grid-template-columns: repeat(1, 1fr); /* 1 coluna por vez */
+    }
+  }
+
+
 
 
 
