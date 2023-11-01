@@ -29,3 +29,13 @@
         transform: scale(95%);
     }
 }
+
+.dropdown-item {
+    background-color: #fff;
+
+    &:hover {
+        background-color: #96bfe0;
+        transition: .5s;
+    }
+}
+

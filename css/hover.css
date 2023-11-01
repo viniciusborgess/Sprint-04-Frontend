@@ -26,4 +26,12 @@
   transform: scale(95%);
 }
 
+.dropdown-item {
+  background-color: #fff;
+}
+.dropdown-item:hover {
+  background-color: #96bfe0;
+  transition: 0.5s;
+}
+
 /*# sourceMappingURL=hover.css.map */
